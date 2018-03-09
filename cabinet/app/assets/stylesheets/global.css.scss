@@ -14,7 +14,7 @@ $green: #529ECC;
 }
 
 body {
-	padding-top: 4.5rem;
+	padding-top: 10.5rem;
 	font-family: 'Dosis', sans-serif;
 }
 
@@ -76,7 +76,7 @@ header {
 	padding: 1.75rem 0;
 	border-bottom: 1.5px solid #376490;
 	.inner {
-		width: 90%;
+		width: 80%;
 		margin: 0 auto;
 		#logo {
 			display: inline-block;
@@ -97,7 +97,8 @@ header {
 			color: white;
 			font-size: 1.1rem;
 			line-height: 1.5;
-			margin-left: 1rem;
+			padding: 1.75rem;
+
 			&:hover {
 				color: $light_gray;
 			}
