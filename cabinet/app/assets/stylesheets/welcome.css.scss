@@ -8,6 +8,7 @@
 	background-position: top center;
 	width: 100%;
 	min-height: 500px;
+	height: 650px;
 	display: table;
 	.banner_content {
 		display: table-cell;
@@ -44,12 +45,13 @@
 }
 
 #callouts {
-	background-image: image-url("callout_background.jpg");
+	background-image: url(image_path("callout_background.jpg"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
 	width: 100%;
 	min-height: 400px;
+	height: 650px;
 	display: table;
 	.callout_inner {
 		display: table-cell;
@@ -72,11 +74,17 @@
 }
 
 #bottom_cta {
+	background-image: url(image_path("go_ahead.jpg"));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 400px;
+	height: 650px;
 	text-align: center;
 	padding: 7.5rem 0;
 	h2 {
 		@include bold_font;
-		color: $dark_gray;
+		color: #529ECC;
 		font-size: 3rem;
 		margin: 0;
 	}
